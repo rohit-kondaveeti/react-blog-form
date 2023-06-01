@@ -1,0 +1,55 @@
+h1 {
+  text-align: center;
+  color: #000;
+}
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(68, 136, 209, 1) 0%,
+    rgba(233, 202, 110, 0.7887487758775386) 100%
+  );
+}
+.form {
+  max-width: 800px;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 25px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.form-group input {
+  width: -moz-available;
+  padding: 5px;
+  margin: 10px auto;
+  display: block;
+}
+.form-group label {
+  font-weight: 600;
+}
+.ql-toolbar.ql-snow {
+  margin-top: 10px;
+}
+.form-group {
+  margin-top: 20px;
+}
+.editor.ql-container.ql-snow {
+  height: 150px;
+}
+.submit_btn {
+  margin: 20px auto;
+  display: block;
+  background: #3c58ea;
+  border: 1px solid #3c58ea;
+  padding: 10px 20px;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.submit_btn:hover {
+  background: #fff;
+  color: #3c58ea;
+}
+.error {
+  color: red;
+}
